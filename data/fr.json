@@ -1,0 +1,1424 @@
+{
+ "eyebrow": "Portfolio data · Île-de-France · CDI / CDD",
+ "roles": [
+  "Data Engineer",
+  "Analytics Engineer",
+  "Data Analyst",
+  "Data Scientist"
+ ],
+ "lede": "Je construis des pipelines de données de bout en bout, des API fournisseurs jusqu'aux tableaux de bord que les équipes métier consultent chaque matin. Ingénieure data titulaire d'un **double diplôme** (diplôme d'ingénieur + Master 2) et d'une **licence d'une université chinoise**.",
+ "facts": [
+  {
+   "b": "Double diplôme",
+   "span": "Diplôme d'ingénieur + Master 2"
+  },
+  {
+   "b": "4 langues",
+   "span": "Arabe · Anglais C2 · Français C1 · Mandarin B1"
+  },
+  {
+   "b": "~60 % plus rapide",
+   "span": "mise à disposition des données chez Vinci Energies"
+  },
+  {
+   "b": "0 % d'erreurs",
+   "span": "en recette grâce aux modèles dbt testés"
+  }
+ ],
+ "nav": {
+  "experience": "Expérience",
+  "projects": "Projets",
+  "education": "Formation",
+  "skills": "Compétences",
+  "contact": "Contact"
+ },
+ "experience_title": "Expérience professionnelle",
+ "experience": [
+  {
+   "title": "Data Engineer · Vinci Energies",
+   "when": "Janv. 2026 – Juin 2026 · Nanterre",
+   "bullets": [
+    "Réduit de ~60 % le temps de mise à disposition des données métier grâce à un pipeline Airflow → PostgreSQL → ClickHouse automatisant l'ingestion quotidienne de 3 API fournisseurs externes.",
+    "Ramené le taux d'erreur de données à 0 % en recette avec des transformations dbt, des tests unitaires et de la documentation.",
+    "Mis en place la **sécurité au niveau des lignes (Row-Level Security, RLS)** pour que chaque utilisateur ne voie que les données de son rôle, dans une logique de gouvernance et de sécurité des données.",
+    "Conçu la modélisation physique des données : tables de staging PostgreSQL et structure de l'entrepôt ClickHouse.",
+    "Livré un dashboard Superset interactif qui remplace les exports Excel manuels des équipes métier. Équipe Agile Scrum."
+   ],
+   "tags": [
+    "Airflow",
+    "dbt",
+    "PostgreSQL",
+    "ClickHouse",
+    "Superset",
+    "RLS",
+    "Scrum"
+   ]
+  },
+  {
+   "title": "Développeuse Automation & IA · Onrtech",
+   "when": "Juin 2025 – Août 2025",
+   "bullets": [
+    "Réduit de 40 % le temps de traitement des flux VoIP avec des pipelines temps réel (API REST et webhooks) dans n8n.",
+    "Augmenté de 30 % la précision du routage d'appels en intégrant un LLM dans n8n pour analyser et classer les appels entrants."
+   ],
+   "tags": [
+    "n8n",
+    "API REST",
+    "Webhooks",
+    "LLM"
+   ]
+  },
+  {
+   "title": "Développeuse Web full-stack · ArabSoft",
+   "when": "Juin 2024 – Juil. 2024",
+   "bullets": [
+    "Développé **HealthAid**, une plateforme full-stack de rendez-vous médicaux avec assistant médical GPT, connexion par reconnaissance faciale et back-office clinique (détails dans Projets)."
+   ],
+   "tags": [
+    "Angular",
+    "Node.js / Express",
+    "MySQL",
+    "GPT"
+   ]
+  },
+  {
+   "title": "Développeuse Qt (stage) · SIPHAT",
+   "when": "Août 2023",
+   "bullets": [
+    "Développé un outil de bureau Qt pour suivre l'avancement de l'inventaire physique, avec une base de données Oracle.",
+    "Donné une visibilité en temps réel sur chaque phase et zone de comptage, pour répartir équitablement la charge et tenir les délais."
+   ],
+   "tags": [
+    "Qt",
+    "C++",
+    "Oracle SQL"
+   ]
+  },
+  {
+   "title": "Développeuse Python / Django (stage) · ADEKT",
+   "when": "Juin 2023 – Juil. 2023",
+   "bullets": [
+    "Développé une application web Django avec connexion Facebook, intégrée via le package social-auth-app-django."
+   ],
+   "tags": [
+    "Python",
+    "Django",
+    "OAuth / Facebook Login API"
+   ]
+  },
+  {
+   "title": "Développeuse Java / Spring Boot (stage) · ArabSoft",
+   "when": "Juil. 2022 – Août 2022",
+   "bullets": [
+    "Développé une application de gestion de comptes bancaires avec Spring Boot en architecture MVC : clients, comptes épargne et courants, dépôts et retraits, avec authentification sécurisée."
+   ],
+   "tags": [
+    "Java",
+    "Spring Boot",
+    "MVC"
+   ]
+  }
+ ],
+ "projects_title": "Projets réalisés",
+ "projects_intro": "Vingt-trois projets en data engineering, BI, machine learning, deep learning, automatisation et réseaux. Filtrez par domaine.",
+ "categories": {
+  "all": "Tous",
+  "de": "Data Engineering",
+  "bi": "BI & Analyse",
+  "ai": "IA / ML / Deep Learning",
+  "auto": "Automatisation & RPA",
+  "sw": "Logiciel, Web & IoT"
+ },
+ "projects": [
+  {
+   "cat": "de",
+   "video": null,
+   "pdf": null,
+   "images": [],
+   "start": 0,
+   "end": null,
+   "thumb": null,
+   "thumb_text": "Bronze → Silver → Gold",
+   "when": "2026",
+   "kicker": "Databricks · Lakehouse",
+   "title": "Framework de pipelines metadata-driven sur Databricks",
+   "subtitle": "De nouvelles sources par configuration, sans code",
+   "desc": "Un framework qui génère les pipelines d'ingestion et de transformation à partir de métadonnées : une nouvelle source s'ajoute par configuration, sans code.",
+   "flow": "Brut → Bronze → Silver → Gold → BI",
+   "bullets": [
+    "Architecture médaillon (Lakehouse) conçue de A à Z",
+    "Orchestration et gouvernance des données intégrées",
+    "Couche finale connectée aux tableaux de bord BI"
+   ],
+   "tags": [
+    "Databricks",
+    "PySpark",
+    "Delta Lake",
+    "Lakehouse"
+   ],
+   "slides": []
+  },
+  {
+   "cat": "de",
+   "video": null,
+   "pdf": null,
+   "images": [],
+   "start": 0,
+   "end": null,
+   "thumb": null,
+   "thumb_text": "Parquet → Delta Lake",
+   "when": "2024",
+   "kicker": "PySpark · Delta Lake",
+   "title": "Lakehouse Delta Lake : base publique des médicaments",
+   "subtitle": "De l'open data avec transactions et time travel",
+   "desc": "Ingestion et transformation de l'open data sur les médicaments avec PySpark, puis migration vers des tables Delta.",
+   "flow": "",
+   "bullets": [
+    "Parquet → Delta Lake avec transactions et évolution de schéma",
+    "Time travel pour auditer l'historique et restaurer un état antérieur",
+    "Optimisation des jointures : broadcast, shuffle, sort-merge, coalesce"
+   ],
+   "tags": [
+    "PySpark",
+    "Spark SQL",
+    "Delta Lake",
+    "Parquet"
+   ],
+   "slides": []
+  },
+  {
+   "cat": "de",
+   "video": "media/airflow-weather.mp4",
+   "pdf": null,
+   "images": [],
+   "start": 0,
+   "end": null,
+   "thumb": "media/thumbs/airflow.jpg",
+   "thumb_text": "",
+   "when": "2026",
+   "kicker": "Airflow · AWS",
+   "title": "Pipeline ETL parallèle avec Airflow sur AWS EC2",
+   "subtitle": "Des données météo extraites et livrées chaque jour",
+   "desc": "Un pipeline Airflow quotidien qui exécute deux branches d'extraction en même temps, les joint dans PostgreSQL et livre le résultat sur Amazon S3.",
+   "flow": "[CSV S3 → RDS Postgres] ∥ [API météo → transformation → Postgres] → jointure SQL → S3",
+   "bullets": [
+    "Airflow installé et exécuté sur une instance AWS EC2 (Ubuntu, environnement virtuel Python)",
+    "Branche 1 : un fichier de référence des villes (État, recensement 2020, superficie) importé directement de S3 vers une base PostgreSQL Amazon RDS grâce à l'extension `aws_s3` et à un rôle IAM",
+    "Branche 2 : un capteur HTTP vérifie que l'API OpenWeatherMap répond, puis la météo actuelle est extraite en JSON, transformée avec pandas (Kelvin en Fahrenheit, heures locales du relevé, du lever et du coucher du soleil) et chargée en masse dans Postgres",
+    "Les deux branches tournent en parallèle dans un TaskGroup Airflow, puis une jointure SQL enrichit la météo avec les attributs des villes",
+    "Le jeu de données joint est écrit sur S3 en CSV horodaté ; planification quotidienne avec relances automatiques"
+   ],
+   "tags": [
+    "Apache Airflow",
+    "AWS EC2",
+    "Amazon RDS",
+    "PostgreSQL",
+    "Amazon S3",
+    "IAM",
+    "Python",
+    "pandas",
+    "API REST"
+   ],
+   "slides": []
+  },
+  {
+   "cat": "ai",
+   "video": null,
+   "pdf": null,
+   "images": [],
+   "start": 0,
+   "end": null,
+   "thumb": null,
+   "thumb_text": "model → API → Docker",
+   "when": "2023",
+   "kicker": "FastAPI · Docker",
+   "title": "MLOps : déploiement de modèles de machine learning avec FastAPI et Docker",
+   "subtitle": "Du notebook à l'API en production",
+   "desc": "Passage de modèles de machine learning entraînés du notebook à la production, sous forme d'API conteneurisée.",
+   "flow": "",
+   "bullets": [
+    "Modèles de ML exposés via une API REST FastAPI pour des prédictions en temps réel",
+    "Application conteneurisée avec Docker pour un déploiement reproductible",
+    "Pipeline CI/CD entièrement automatisé : build, tests et déploiement à chaque modification",
+    "API documentée et testable avec Swagger"
+   ],
+   "tags": [
+    "MLOps",
+    "FastAPI",
+    "Docker",
+    "CI/CD",
+    "Swagger",
+    "Python"
+   ],
+   "slides": []
+  },
+  {
+   "cat": "bi",
+   "video": null,
+   "pdf": null,
+   "images": [
+    "media/shots/weather.jpg"
+   ],
+   "start": 0,
+   "end": null,
+   "thumb": "media/thumbs/weather.jpg",
+   "thumb_text": "",
+   "when": "Power BI",
+   "kicker": "Power BI · API REST",
+   "title": "Dashboard météo interactif avec WeatherAPI",
+   "subtitle": "Météo et qualité de l'air en un coup d'œil",
+   "desc": "Transformation des données JSON d'une API météo REST en un tableau de bord Power BI interactif.",
+   "flow": "API → Extraction → Power Query / M → Modèle → DAX → Visuels",
+   "bullets": [
+    "Température, humidité, vent, visibilité, indice UV, précipitations",
+    "Indicateurs de qualité de l'air (AQI)",
+    "Modèle de données et mesures DAX pensés pour l'exploration"
+   ],
+   "tags": [
+    "Power BI",
+    "Power Query",
+    "DAX",
+    "API REST"
+   ],
+   "slides": []
+  },
+  {
+   "cat": "bi",
+   "video": null,
+   "pdf": null,
+   "images": [
+    "media/shots/apple-investors.jpg",
+    "media/shots/apple-sustainability.jpg"
+   ],
+   "start": 0,
+   "end": null,
+   "thumb": "media/thumbs/apple.jpg",
+   "thumb_text": "",
+   "when": "2025",
+   "kicker": "Power BI · DAX",
+   "title": "Analyse des émissions carbone d'Apple",
+   "subtitle": "Un dashboard pour les investisseurs, un pour l'équipe RSE",
+   "desc": "Tableaux de bord de suivi de la performance carbone d'Apple par gamme de produits.",
+   "flow": "",
+   "bullets": [
+    "Nettoyage et préparation des données avec Excel et Power Query",
+    "Modèle en étoile et mesures DAX"
+   ],
+   "tags": [
+    "Power BI",
+    "Schéma en étoile",
+    "DAX",
+    "ETL"
+   ],
+   "slides": []
+  },
+  {
+   "cat": "bi",
+   "video": null,
+   "pdf": "media/gas-turbine-emissions.pdf",
+   "images": [],
+   "start": 0,
+   "end": null,
+   "thumb": "media/thumbs/gas-turbine.jpg",
+   "thumb_text": "",
+   "when": "2024",
+   "kicker": "R · Statistiques",
+   "title": "Émissions de CO et NOx des turbines à gaz",
+   "subtitle": "Ce qui fait varier les émissions des turbines",
+   "desc": "Projet statistique sur les données capteurs 2011–2015, pour réduire les émissions de CO et de NOx.",
+   "flow": "",
+   "bullets": [
+    "Web scraping (rvest), fusion, normalisation min-max, imputation KNN des valeurs aberrantes",
+    "Tests de normalité, tests de variance, Kruskal-Wallis et tau de Kendall",
+    "Régression linéaire du NOx, déployée via une API et une application web"
+   ],
+   "tags": [
+    "R",
+    "rvest",
+    "RStudio",
+    "Statistiques",
+    "Régression"
+   ],
+   "slides": [
+    "media/slides/gas-turbine-emissions/01.jpg",
+    "media/slides/gas-turbine-emissions/02.jpg",
+    "media/slides/gas-turbine-emissions/03.jpg",
+    "media/slides/gas-turbine-emissions/04.jpg",
+    "media/slides/gas-turbine-emissions/05.jpg",
+    "media/slides/gas-turbine-emissions/06.jpg",
+    "media/slides/gas-turbine-emissions/07.jpg",
+    "media/slides/gas-turbine-emissions/08.jpg",
+    "media/slides/gas-turbine-emissions/09.jpg",
+    "media/slides/gas-turbine-emissions/10.jpg",
+    "media/slides/gas-turbine-emissions/11.jpg",
+    "media/slides/gas-turbine-emissions/12.jpg",
+    "media/slides/gas-turbine-emissions/13.jpg",
+    "media/slides/gas-turbine-emissions/14.jpg",
+    "media/slides/gas-turbine-emissions/15.jpg",
+    "media/slides/gas-turbine-emissions/16.jpg",
+    "media/slides/gas-turbine-emissions/17.jpg",
+    "media/slides/gas-turbine-emissions/18.jpg",
+    "media/slides/gas-turbine-emissions/19.jpg",
+    "media/slides/gas-turbine-emissions/20.jpg",
+    "media/slides/gas-turbine-emissions/21.jpg",
+    "media/slides/gas-turbine-emissions/22.jpg",
+    "media/slides/gas-turbine-emissions/23.jpg",
+    "media/slides/gas-turbine-emissions/24.jpg",
+    "media/slides/gas-turbine-emissions/25.jpg",
+    "media/slides/gas-turbine-emissions/26.jpg",
+    "media/slides/gas-turbine-emissions/27.jpg",
+    "media/slides/gas-turbine-emissions/28.jpg",
+    "media/slides/gas-turbine-emissions/29.jpg",
+    "media/slides/gas-turbine-emissions/30.jpg",
+    "media/slides/gas-turbine-emissions/31.jpg",
+    "media/slides/gas-turbine-emissions/32.jpg",
+    "media/slides/gas-turbine-emissions/33.jpg",
+    "media/slides/gas-turbine-emissions/34.jpg",
+    "media/slides/gas-turbine-emissions/35.jpg",
+    "media/slides/gas-turbine-emissions/36.jpg"
+   ]
+  },
+  {
+   "cat": "bi",
+   "video": null,
+   "pdf": "media/transport-demand-ariege.pdf",
+   "images": [],
+   "start": 0,
+   "end": null,
+   "thumb": "media/thumbs/transport.jpg",
+   "thumb_text": "",
+   "when": "2025",
+   "kicker": "Python · OSMnx · QGIS",
+   "title": "Modèle de demande de transport pour l'Ariège",
+   "subtitle": "Des données du recensement au trafic domicile-travail sur les vraies routes",
+   "desc": "Construction d'un modèle de demande de transport de bout en bout pour un département français à partir d'open data : qui habite et travaille où, jusqu'aux trajets individuels routés sur le réseau routier réel.",
+   "flow": "Recensement + URSSAF → génération → attraction → modèle gravitaire → trajets → routage OSM → QGIS",
+   "bullets": [
+    "Analyse territoriale avec les microdonnées pondérées du recensement INSEE : structure par âge (âge moyen 46,6 ans) et catégories socio-professionnelles par commune, cartographiées avec GeoPandas",
+    "Emplois et actifs résidents par commune à partir des données URSSAF, révélant quelques pôles d'emploi et de nombreuses communes résidentielles",
+    "Génération linéaire des déplacements par catégorie socio-professionnelle, attraction proportionnelle, puis modèle gravitaire doublement contraint sur 327 communes (convergence en 46 itérations, environ 17 900 flux)",
+    "Flux désagrégés en trajets individuels avec origines, destinations et heures de départ matinales aléatoires",
+    "Trajets routés sur le réseau OpenStreetMap avec OSMnx et NetworkX, flux par tronçon exportés en GeoPackage et cartographiés dans QGIS"
+   ],
+   "tags": [
+    "Python",
+    "GeoPandas",
+    "OSMnx",
+    "NetworkX",
+    "QGIS",
+    "Open data"
+   ],
+   "slides": [
+    "media/slides/transport-demand-ariege/01.jpg",
+    "media/slides/transport-demand-ariege/02.jpg",
+    "media/slides/transport-demand-ariege/03.jpg",
+    "media/slides/transport-demand-ariege/04.jpg",
+    "media/slides/transport-demand-ariege/05.jpg",
+    "media/slides/transport-demand-ariege/06.jpg",
+    "media/slides/transport-demand-ariege/07.jpg",
+    "media/slides/transport-demand-ariege/08.jpg",
+    "media/slides/transport-demand-ariege/09.jpg",
+    "media/slides/transport-demand-ariege/10.jpg",
+    "media/slides/transport-demand-ariege/11.jpg",
+    "media/slides/transport-demand-ariege/12.jpg",
+    "media/slides/transport-demand-ariege/13.jpg",
+    "media/slides/transport-demand-ariege/14.jpg",
+    "media/slides/transport-demand-ariege/15.jpg",
+    "media/slides/transport-demand-ariege/16.jpg",
+    "media/slides/transport-demand-ariege/17.jpg",
+    "media/slides/transport-demand-ariege/18.jpg",
+    "media/slides/transport-demand-ariege/19.jpg",
+    "media/slides/transport-demand-ariege/20.jpg",
+    "media/slides/transport-demand-ariege/21.jpg",
+    "media/slides/transport-demand-ariege/22.jpg",
+    "media/slides/transport-demand-ariege/23.jpg",
+    "media/slides/transport-demand-ariege/24.jpg",
+    "media/slides/transport-demand-ariege/25.jpg",
+    "media/slides/transport-demand-ariege/26.jpg",
+    "media/slides/transport-demand-ariege/27.jpg",
+    "media/slides/transport-demand-ariege/28.jpg",
+    "media/slides/transport-demand-ariege/29.jpg",
+    "media/slides/transport-demand-ariege/30.jpg",
+    "media/slides/transport-demand-ariege/31.jpg",
+    "media/slides/transport-demand-ariege/32.jpg",
+    "media/slides/transport-demand-ariege/33.jpg",
+    "media/slides/transport-demand-ariege/34.jpg",
+    "media/slides/transport-demand-ariege/35.jpg",
+    "media/slides/transport-demand-ariege/36.jpg",
+    "media/slides/transport-demand-ariege/37.jpg",
+    "media/slides/transport-demand-ariege/38.jpg",
+    "media/slides/transport-demand-ariege/39.jpg",
+    "media/slides/transport-demand-ariege/40.jpg",
+    "media/slides/transport-demand-ariege/41.jpg"
+   ]
+  },
+  {
+   "cat": "bi",
+   "video": null,
+   "pdf": "media/brown-gibson.pdf",
+   "images": [],
+   "start": 0,
+   "end": null,
+   "thumb": "media/thumbs/brown-gibson.jpg",
+   "thumb_text": "",
+   "when": "",
+   "kicker": "Aide à la décision",
+   "title": "Modèle de Brown-Gibson : décision multicritère",
+   "subtitle": "Coûts et jugement d'experts réunis en un seul score",
+   "desc": "Étude et application du modèle de Brown-Gibson pour le choix d'implantation, qui combine données de coûts et jugement d'experts en un seul score.",
+   "flow": "",
+   "bullets": [
+    "Facteurs critiques en filtrage éliminatoire",
+    "Facteurs objectifs issus des coûts annuels, facteurs subjectifs par comparaisons par paires",
+    "Classement final : LPM = k·OF + (1 − k)·SF"
+   ],
+   "tags": [
+    "MCDM",
+    "Aide à la décision",
+    "Recherche opérationnelle"
+   ],
+   "slides": [
+    "media/slides/brown-gibson/01.jpg",
+    "media/slides/brown-gibson/02.jpg",
+    "media/slides/brown-gibson/03.jpg",
+    "media/slides/brown-gibson/04.jpg",
+    "media/slides/brown-gibson/05.jpg",
+    "media/slides/brown-gibson/06.jpg",
+    "media/slides/brown-gibson/07.jpg",
+    "media/slides/brown-gibson/08.jpg",
+    "media/slides/brown-gibson/09.jpg",
+    "media/slides/brown-gibson/10.jpg",
+    "media/slides/brown-gibson/11.jpg",
+    "media/slides/brown-gibson/12.jpg",
+    "media/slides/brown-gibson/13.jpg",
+    "media/slides/brown-gibson/14.jpg",
+    "media/slides/brown-gibson/15.jpg",
+    "media/slides/brown-gibson/16.jpg",
+    "media/slides/brown-gibson/17.jpg",
+    "media/slides/brown-gibson/18.jpg"
+   ]
+  },
+  {
+   "cat": "ai",
+   "video": "media/seedlings-app.mp4",
+   "pdf": "media/plant-seedlings-classification.pdf",
+   "images": [],
+   "start": 0,
+   "end": null,
+   "thumb": "media/thumbs/seedlings.jpg",
+   "thumb_text": "",
+   "when": "",
+   "kicker": "TensorFlow · EfficientNet",
+   "title": "Classification de plantules",
+   "subtitle": "12 espèces presque identiques, 0,966 de micro-F1",
+   "desc": "Un classifieur d'images qui distingue 12 espèces de plantules presque identiques aux premiers stades de croissance.",
+   "flow": "",
+   "bullets": [
+    "Comparaison d'un CNN de base, d'un CNN amélioré, d'un réseau type ResNet et d'EfficientNetB0",
+    "Pondération des classes et augmentation pour un jeu de données déséquilibré",
+    "EfficientNet final : 0,966 de micro-F1 sur Kaggle, déployé en application web"
+   ],
+   "tags": [
+    "TensorFlow / Keras",
+    "EfficientNet",
+    "CNN",
+    "Transfer learning"
+   ],
+   "slides": [
+    "media/slides/plant-seedlings-classification/01.jpg",
+    "media/slides/plant-seedlings-classification/02.jpg",
+    "media/slides/plant-seedlings-classification/03.jpg",
+    "media/slides/plant-seedlings-classification/04.jpg",
+    "media/slides/plant-seedlings-classification/05.jpg",
+    "media/slides/plant-seedlings-classification/06.jpg",
+    "media/slides/plant-seedlings-classification/07.jpg",
+    "media/slides/plant-seedlings-classification/08.jpg",
+    "media/slides/plant-seedlings-classification/09.jpg",
+    "media/slides/plant-seedlings-classification/10.jpg",
+    "media/slides/plant-seedlings-classification/11.jpg",
+    "media/slides/plant-seedlings-classification/12.jpg",
+    "media/slides/plant-seedlings-classification/13.jpg",
+    "media/slides/plant-seedlings-classification/14.jpg",
+    "media/slides/plant-seedlings-classification/15.jpg",
+    "media/slides/plant-seedlings-classification/16.jpg",
+    "media/slides/plant-seedlings-classification/17.jpg",
+    "media/slides/plant-seedlings-classification/18.jpg",
+    "media/slides/plant-seedlings-classification/19.jpg",
+    "media/slides/plant-seedlings-classification/20.jpg",
+    "media/slides/plant-seedlings-classification/21.jpg",
+    "media/slides/plant-seedlings-classification/22.jpg",
+    "media/slides/plant-seedlings-classification/23.jpg",
+    "media/slides/plant-seedlings-classification/24.jpg",
+    "media/slides/plant-seedlings-classification/25.jpg",
+    "media/slides/plant-seedlings-classification/26.jpg",
+    "media/slides/plant-seedlings-classification/27.jpg",
+    "media/slides/plant-seedlings-classification/28.jpg",
+    "media/slides/plant-seedlings-classification/29.jpg"
+   ]
+  },
+  {
+   "cat": "ai",
+   "video": null,
+   "pdf": "media/xai-plant-seedlings.pdf",
+   "images": [],
+   "start": 0,
+   "end": null,
+   "thumb": "media/thumbs/xai.jpg",
+   "thumb_text": "",
+   "when": "",
+   "kicker": "LIME · SHAP · Grad-CAM",
+   "title": "IA explicable (XAI) pour les plantules",
+   "subtitle": "Vérifier que le modèle regarde bien la plante",
+   "desc": "Analyse du classifieur EfficientNet pour vérifier qu'il apprend les vraies caractéristiques des plantes, et non l'arrière-plan.",
+   "flow": "",
+   "bullets": [
+    "LIME, SHAP, Grad-CAM et Integrated Gradients comparés côte à côte",
+    "Explications contrefactuelles pour cartographier les espèces confondues",
+    "Principal mode d'erreur identifié : trop de poids sur la pointe des feuilles des graminées"
+   ],
+   "tags": [
+    "LIME",
+    "SHAP",
+    "Grad-CAM",
+    "Integrated Gradients"
+   ],
+   "slides": [
+    "media/slides/xai-plant-seedlings/01.jpg",
+    "media/slides/xai-plant-seedlings/02.jpg",
+    "media/slides/xai-plant-seedlings/03.jpg",
+    "media/slides/xai-plant-seedlings/04.jpg",
+    "media/slides/xai-plant-seedlings/05.jpg",
+    "media/slides/xai-plant-seedlings/06.jpg",
+    "media/slides/xai-plant-seedlings/07.jpg",
+    "media/slides/xai-plant-seedlings/08.jpg",
+    "media/slides/xai-plant-seedlings/09.jpg",
+    "media/slides/xai-plant-seedlings/10.jpg",
+    "media/slides/xai-plant-seedlings/11.jpg",
+    "media/slides/xai-plant-seedlings/12.jpg",
+    "media/slides/xai-plant-seedlings/13.jpg",
+    "media/slides/xai-plant-seedlings/14.jpg",
+    "media/slides/xai-plant-seedlings/15.jpg",
+    "media/slides/xai-plant-seedlings/16.jpg",
+    "media/slides/xai-plant-seedlings/17.jpg",
+    "media/slides/xai-plant-seedlings/18.jpg",
+    "media/slides/xai-plant-seedlings/19.jpg",
+    "media/slides/xai-plant-seedlings/20.jpg",
+    "media/slides/xai-plant-seedlings/21.jpg",
+    "media/slides/xai-plant-seedlings/22.jpg",
+    "media/slides/xai-plant-seedlings/23.jpg",
+    "media/slides/xai-plant-seedlings/24.jpg",
+    "media/slides/xai-plant-seedlings/25.jpg",
+    "media/slides/xai-plant-seedlings/26.jpg",
+    "media/slides/xai-plant-seedlings/27.jpg",
+    "media/slides/xai-plant-seedlings/28.jpg",
+    "media/slides/xai-plant-seedlings/29.jpg",
+    "media/slides/xai-plant-seedlings/30.jpg",
+    "media/slides/xai-plant-seedlings/31.jpg",
+    "media/slides/xai-plant-seedlings/32.jpg",
+    "media/slides/xai-plant-seedlings/33.jpg",
+    "media/slides/xai-plant-seedlings/34.jpg",
+    "media/slides/xai-plant-seedlings/35.jpg",
+    "media/slides/xai-plant-seedlings/36.jpg",
+    "media/slides/xai-plant-seedlings/37.jpg",
+    "media/slides/xai-plant-seedlings/38.jpg",
+    "media/slides/xai-plant-seedlings/39.jpg",
+    "media/slides/xai-plant-seedlings/40.jpg",
+    "media/slides/xai-plant-seedlings/41.jpg",
+    "media/slides/xai-plant-seedlings/42.jpg",
+    "media/slides/xai-plant-seedlings/43.jpg",
+    "media/slides/xai-plant-seedlings/44.jpg",
+    "media/slides/xai-plant-seedlings/45.jpg",
+    "media/slides/xai-plant-seedlings/46.jpg",
+    "media/slides/xai-plant-seedlings/47.jpg",
+    "media/slides/xai-plant-seedlings/48.jpg",
+    "media/slides/xai-plant-seedlings/49.jpg"
+   ]
+  },
+  {
+   "cat": "ai",
+   "video": null,
+   "pdf": "media/insurprime.pdf",
+   "images": [],
+   "start": 0,
+   "end": null,
+   "thumb": "media/thumbs/insurprime.jpg",
+   "thumb_text": "",
+   "when": "",
+   "kicker": "Scikit-learn · GLM",
+   "title": "InsurPrime : prédiction de la prime incendie",
+   "subtitle": "Tarifer le risque incendie en assurance agricole",
+   "desc": "Prédiction de la prime pure incendie de contrats multirisques agricoles, sur un cas d'étude Crédit Agricole Assurances.",
+   "flow": "",
+   "bullets": [
+    "374 variables, 38 % de valeurs manquantes, cibles à forte inflation de zéros",
+    "GLM (Poisson, Tweedie), Lasso, arbre de décision hybride et Random Forest testés",
+    "Lasso retenu : meilleur RMSE réaliste et modèle interprétable"
+   ],
+   "tags": [
+    "Python",
+    "Scikit-learn",
+    "GLM",
+    "Lasso"
+   ],
+   "slides": [
+    "media/slides/insurprime/01.jpg",
+    "media/slides/insurprime/02.jpg",
+    "media/slides/insurprime/03.jpg",
+    "media/slides/insurprime/04.jpg",
+    "media/slides/insurprime/05.jpg",
+    "media/slides/insurprime/06.jpg",
+    "media/slides/insurprime/07.jpg",
+    "media/slides/insurprime/08.jpg",
+    "media/slides/insurprime/09.jpg",
+    "media/slides/insurprime/10.jpg",
+    "media/slides/insurprime/11.jpg",
+    "media/slides/insurprime/12.jpg",
+    "media/slides/insurprime/13.jpg",
+    "media/slides/insurprime/14.jpg",
+    "media/slides/insurprime/15.jpg",
+    "media/slides/insurprime/16.jpg",
+    "media/slides/insurprime/17.jpg",
+    "media/slides/insurprime/18.jpg",
+    "media/slides/insurprime/19.jpg"
+   ]
+  },
+  {
+   "cat": "ai",
+   "video": "media/rl-carracing.mp4",
+   "pdf": null,
+   "images": [],
+   "start": 0,
+   "end": null,
+   "thumb": "media/thumbs/rl.jpg",
+   "thumb_text": "",
+   "when": "2025–26",
+   "kicker": "PyTorch · PPO",
+   "title": "Agent de conduite autonome : Car Racing v2",
+   "subtitle": "Un agent qui apprend à conduire seul",
+   "desc": "Entraînement d'un agent à conduire en contrôle continu (accélération, freinage, direction) dans Gymnasium.",
+   "flow": "",
+   "bullets": [
+    "Implémentation et comparaison de DQN, PPO et A2C"
+   ],
+   "tags": [
+    "PyTorch",
+    "Stable-Baselines3",
+    "Gymnasium"
+   ],
+   "slides": []
+  },
+  {
+   "cat": "ai",
+   "video": null,
+   "pdf": "media/mas-trading.pdf",
+   "images": [],
+   "start": 0,
+   "end": null,
+   "thumb": "media/thumbs/mas-trading.jpg",
+   "thumb_text": "",
+   "when": "2025",
+   "kicker": "Mesa · Gemini 2.5",
+   "title": "Simulation de trading multi-agents pilotée par LLM",
+   "subtitle": "Des agents traders qui lisent l'actualité",
+   "desc": "Un marché financier simulé où des agents traders basés sur Google Gemini 2.5 lisent des actualités non structurées et agissent en conséquence.",
+   "flow": "",
+   "bullets": [
+    "Population hybride : traders réactifs (momentum, contrarian, bruit), un market maker pour la liquidité, et des traders cognitifs (prudent et agressif) pilotés par un LLM",
+    "Gemini 2.5 utilisé comme processeur de signal, pas comme chatbot : chaque titre d'actualité Kaggle devient un score structuré de sentiment et de risque",
+    "Carnet d'ordres en double enchère continue dans Mesa ; les agents se coordonnent uniquement via le prix (stigmergie)",
+    "50 simulations par scénario, LLM désactivé ou activé : le signal du LLM augmente le volume échangé et la volatilité"
+   ],
+   "tags": [
+    "Mesa",
+    "Gemini 2.5",
+    "Python"
+   ],
+   "slides": [
+    "media/slides/mas-trading/01.jpg",
+    "media/slides/mas-trading/02.jpg",
+    "media/slides/mas-trading/03.jpg",
+    "media/slides/mas-trading/04.jpg",
+    "media/slides/mas-trading/05.jpg",
+    "media/slides/mas-trading/06.jpg",
+    "media/slides/mas-trading/07.jpg"
+   ]
+  },
+  {
+   "cat": "ai",
+   "video": "media/farmwise-demo.mp4",
+   "pdf": null,
+   "images": [],
+   "start": 0,
+   "end": null,
+   "thumb": "media/thumbs/farmwise.jpg",
+   "thumb_text": "",
+   "when": "2025",
+   "kicker": "YOLO · LLaMA 3",
+   "title": "FarmWise : plateforme d'agriculture intelligente",
+   "subtitle": "Six outils de prédiction pour agriculteurs, une seule app",
+   "desc": "Un outil d'aide à la décision pour les agriculteurs qui réunit plusieurs modèles de prédiction dans une seule application.",
+   "flow": "",
+   "bullets": [
+    "Détection des olives et prédiction du rendement à partir de photos (YOLO)",
+    "Détection des maladies à partir d'une photo de feuille, avec recommandations de pesticides",
+    "Adéquation des cultures selon le sol et le climat (N, P, K, température, humidité, pH, pluie)",
+    "Prévision des pluies et calcul des besoins d'irrigation par station météo et culture",
+    "Prédiction du prix de l'huile d'olive en TND selon les conditions du marché",
+    "Assistant de rotation des cultures basé sur LLaMA 3, et reconstruction 3D à partir d'images (TensorFlow)"
+   ],
+   "tags": [
+    "Python",
+    "YOLO",
+    "TensorFlow",
+    "Scikit-learn",
+    "LLaMA 3"
+   ],
+   "slides": []
+  },
+  {
+   "cat": "ai",
+   "video": "media/farmwise-demo.mp4",
+   "pdf": null,
+   "images": [],
+   "start": 5,
+   "end": 46,
+   "thumb": "media/thumbs/hand-gesture.jpg",
+   "thumb_text": "",
+   "when": "2025",
+   "kicker": "OpenCV · Computer Vision",
+   "title": "Reconnaissance de gestes de la main avec OpenCV",
+   "subtitle": "Piloter l'application d'un geste de la main",
+   "desc": "Une façon d'utiliser l'application FarmWise sans la toucher : la webcam lit les gestes de la main en temps réel et les transforme en commandes.",
+   "flow": "",
+   "bullets": [
+    "Une fenêtre « Hand Gesture Control » tourne à côté de l'application et traite le flux de la webcam image par image avec OpenCV",
+    "La main est détectée à chaque image et ses points clés et articulations sont dessinés en direct, pour que l'utilisateur voie ce que le modèle suit",
+    "La position des doigts est classée en gestes : **main ouverte**, **poing fermé** et **pouce levé**",
+    "Un état « None » quand aucun geste connu n'est fait, pour qu'un mouvement au hasard ne déclenche rien",
+    "Le geste détecté s'affiche sur la vidéo en temps réel, et chaque geste est associé à une action dans l'application, par exemple pour avancer dans la page de détection des maladies"
+   ],
+   "tags": [
+    "OpenCV",
+    "Python",
+    "Computer Vision",
+    "Suivi de la main",
+    "Temps réel"
+   ],
+   "slides": []
+  },
+  {
+   "cat": "auto",
+   "video": "media/n8n-agent.mp4",
+   "pdf": null,
+   "images": [],
+   "start": 0,
+   "end": null,
+   "thumb": "media/thumbs/n8n.jpg",
+   "thumb_text": "",
+   "when": "2025",
+   "kicker": "n8n · OpenAI",
+   "title": "Agent IA de prise de rendez-vous avec n8n",
+   "subtitle": "Réserver un créneau simplement en discutant",
+   "desc": "Un assistant conversationnel qui réserve et gère seul les rendez-vous dans Google Agenda, construit comme un workflow d'agent IA dans n8n.",
+   "flow": "Message chat → Agent IA (OpenAI + mémoire) → Google Agenda / Google Sheets",
+   "bullets": [
+    "Déclenché par un message : l'utilisateur demande simplement un créneau en langage naturel",
+    "Nœud AI Agent de n8n avec un modèle de chat OpenAI et une mémoire de conversation, pour garder le contexte de l'échange",
+    "Google Agenda connecté comme outil : l'agent vérifie les disponibilités et crée lui-même les événements",
+    "Google Sheets connecté comme outil pour enregistrer et lire les données de réservation",
+    "Les nouveaux rendez-vous apparaissent directement dans l'agenda"
+   ],
+   "tags": [
+    "n8n",
+    "AI Agent",
+    "OpenAI",
+    "Google Agenda",
+    "Google Sheets"
+   ],
+   "slides": []
+  },
+  {
+   "cat": "auto",
+   "video": null,
+   "pdf": null,
+   "images": [
+    "media/shots/fnac-flow-1.jpg",
+    "media/shots/fnac-flow-2.jpg",
+    "media/shots/fnac-flow-3.jpg"
+   ],
+   "start": 0,
+   "end": null,
+   "thumb": "media/thumbs/fnac.jpg",
+   "thumb_text": "",
+   "when": "Power Automate",
+   "kicker": "Power Automate · Regex",
+   "title": "Web scraping automatisé de la FNAC",
+   "subtitle": "Des données livres collectées sans aucun copier-coller",
+   "desc": "Un flux Power Automate Desktop qui remplace la recherche et le copier-coller manuels pour collecter les livres de cinq thèmes : Excel, VBA, Python, Java et SQL.",
+   "flow": "Entrée Excel → Navigation → Extraction → Nettoyage Regex → Sortie Excel",
+   "bullets": [
+    "Parcours des pages de résultats avec le bouton « Suivant »",
+    "Titre, auteur, description, note, prix, stock",
+    "Une feuille par thème, un classeur horodaté par exécution"
+   ],
+   "tags": [
+    "Power Automate Desktop",
+    "Regex",
+    "Excel"
+   ],
+   "slides": []
+  },
+  {
+   "cat": "sw",
+   "video": "media/healthaid-demo.mp4",
+   "pdf": null,
+   "images": [],
+   "start": 0,
+   "end": null,
+   "thumb": "media/thumbs/healthaid.jpg",
+   "thumb_text": "",
+   "when": "ArabSoft · 2024",
+   "kicker": "Angular · Node.js",
+   "title": "HealthAid : plateforme de rendez-vous médicaux",
+   "subtitle": "Réserver un médecin à toute heure",
+   "desc": "Une plateforme full-stack pour que les patients réservent un médecin à toute heure, sans dépendre des horaires d'ouverture du cabinet.",
+   "flow": "",
+   "bullets": [
+    "Assistant médical basé sur GPT qui répond aux questions des patients 24 h/24, 7 j/7",
+    "Connexion par reconnaissance faciale via webcam, reCAPTCHA et e-mail de bienvenue",
+    "Prise de rendez-vous avec confirmation par SMS, annuaire des médecins par spécialité, événements santé avec QR code, réclamations, site multilingue",
+    "Back-office clinique : acceptation ou refus en un clic, export PDF, recherche, tri et pagination"
+   ],
+   "tags": [
+    "Angular",
+    "Node.js / Express",
+    "MySQL",
+    "Bootstrap 5",
+    "GPT",
+    "Postman"
+   ],
+   "slides": []
+  },
+  {
+   "cat": "sw",
+   "video": "media/mekletna-demo.mp4",
+   "pdf": null,
+   "images": [],
+   "start": 0,
+   "end": 239,
+   "thumb": "media/thumbs/mekletna.jpg",
+   "thumb_text": "",
+   "when": "2022–23",
+   "kicker": "PHP · MySQL",
+   "title": "Mekletna : plateforme de cuisine contre le gaspillage",
+   "subtitle": "Les surplus vont aux associations, pas à la poubelle",
+   "desc": "Une plateforme web où les clients commandent de la cuisine faite maison, et où les restaurants donnent leurs surplus alimentaires aux associations partenaires au lieu de les jeter.",
+   "flow": "",
+   "bullets": [
+    "Site public : menu, commandes, chefs, dons et associations partenaires",
+    "Les restaurants donnent leurs plats en surplus aux associations via la plateforme",
+    "Comptes utilisateurs avec gestion du profil",
+    "Tableau de bord admin : réservations, dons et régions, avec recherche et statistiques par localisation"
+   ],
+   "tags": [
+    "PHP",
+    "MySQL",
+    "Bootstrap",
+    "HTML/CSS",
+    "JavaScript"
+   ],
+   "slides": []
+  },
+  {
+   "cat": "sw",
+   "video": null,
+   "pdf": "media/switched-networks.pdf",
+   "images": [],
+   "start": 0,
+   "end": null,
+   "thumb": "media/thumbs/switched-networks.jpg",
+   "thumb_text": "",
+   "when": "2021–22",
+   "kicker": "Cisco · Packet Tracer",
+   "title": "Réseau commuté d'une compagnie d'assurance",
+   "subtitle": "Six ateliers, du premier switch à la redondance complète",
+   "desc": "Mise en place et configuration du réseau commuté de STAR, cas d'étude d'une compagnie d'assurance, zone par zone dans Cisco Packet Tracer avec les commandes Cisco IOS.",
+   "flow": "Config switch → VLAN → Inter-VLAN → STP → EtherChannel → HSRP",
+   "bullets": [
+    "Configuration de base et sécurité des switchs : nom, mots de passe chiffrés, accès console et VTY, bannière MOTD, port security contre les intrusions",
+    "VLAN par département, VLAN de management et VLAN natif, trunks 802.1Q et DTP pour limiter le broadcast",
+    "Routage inter-VLAN de deux façons : une interface physique du routeur par VLAN, puis router-on-a-stick avec sous-interfaces, et vérification des étiquettes 802.1Q en mode simulation",
+    "STP et PVST+ contre les boucles de niveau 2 : élection du root bridge, choix des ports par coût et priorité, root principal et secondaire, ports d'extrémité passant directement en forwarding",
+    "Agrégation de liens EtherChannel avec PAgP et LACP pour plus de débit et de tolérance aux pannes",
+    "Redondance du premier saut HSRP pour la DMZ : routeurs actif et de secours, priorités et préemption, bascule testée"
+   ],
+   "tags": [
+    "Cisco IOS",
+    "Packet Tracer",
+    "VLAN",
+    "STP",
+    "EtherChannel",
+    "HSRP"
+   ],
+   "slides": [
+    "media/slides/switched-networks/01.jpg",
+    "media/slides/switched-networks/02.jpg",
+    "media/slides/switched-networks/03.jpg",
+    "media/slides/switched-networks/04.jpg",
+    "media/slides/switched-networks/05.jpg",
+    "media/slides/switched-networks/06.jpg",
+    "media/slides/switched-networks/07.jpg",
+    "media/slides/switched-networks/08.jpg",
+    "media/slides/switched-networks/09.jpg",
+    "media/slides/switched-networks/10.jpg",
+    "media/slides/switched-networks/11.jpg",
+    "media/slides/switched-networks/12.jpg",
+    "media/slides/switched-networks/13.jpg",
+    "media/slides/switched-networks/14.jpg",
+    "media/slides/switched-networks/15.jpg",
+    "media/slides/switched-networks/16.jpg",
+    "media/slides/switched-networks/17.jpg",
+    "media/slides/switched-networks/18.jpg",
+    "media/slides/switched-networks/19.jpg",
+    "media/slides/switched-networks/20.jpg",
+    "media/slides/switched-networks/21.jpg",
+    "media/slides/switched-networks/22.jpg",
+    "media/slides/switched-networks/23.jpg",
+    "media/slides/switched-networks/24.jpg",
+    "media/slides/switched-networks/25.jpg",
+    "media/slides/switched-networks/26.jpg",
+    "media/slides/switched-networks/27.jpg",
+    "media/slides/switched-networks/28.jpg",
+    "media/slides/switched-networks/29.jpg",
+    "media/slides/switched-networks/30.jpg",
+    "media/slides/switched-networks/31.jpg",
+    "media/slides/switched-networks/32.jpg",
+    "media/slides/switched-networks/33.jpg",
+    "media/slides/switched-networks/34.jpg",
+    "media/slides/switched-networks/35.jpg",
+    "media/slides/switched-networks/36.jpg",
+    "media/slides/switched-networks/37.jpg",
+    "media/slides/switched-networks/38.jpg",
+    "media/slides/switched-networks/39.jpg",
+    "media/slides/switched-networks/40.jpg",
+    "media/slides/switched-networks/41.jpg",
+    "media/slides/switched-networks/42.jpg",
+    "media/slides/switched-networks/43.jpg",
+    "media/slides/switched-networks/44.jpg",
+    "media/slides/switched-networks/45.jpg",
+    "media/slides/switched-networks/46.jpg",
+    "media/slides/switched-networks/47.jpg",
+    "media/slides/switched-networks/48.jpg",
+    "media/slides/switched-networks/49.jpg"
+   ]
+  },
+  {
+   "cat": "sw",
+   "video": null,
+   "pdf": "media/omnetpp-mm1-queue.pdf",
+   "images": [],
+   "start": 0,
+   "end": null,
+   "thumb": "media/thumbs/omnetpp.jpg",
+   "thumb_text": "",
+   "when": "2025",
+   "kicker": "OMNeT++ · C++",
+   "title": "Simulation d'une file d'attente M/M/1 avec OMNeT++",
+   "subtitle": "La théorie des files d'attente confrontée à la simulation",
+   "desc": "Simulation d'une file M/M/1 à un seul serveur dans OMNeT++ avec la bibliothèque de files d'attente INET, puis comparaison des performances mesurées avec les formules théoriques.",
+   "flow": "Arrivées de Poisson → file → serveur unique → résultats SQLite → analyse",
+   "bullets": [
+    "Temps d'arrivée et de service tirés de lois exponentielles : λ = 1/0,79 ≈ 1,266 et µ = 1/0,75 ≈ 1,333 paquets par seconde",
+    "Simulation configurée dans omnetpp.ini et résultats exportés en SQLite pour les requêter",
+    "Longueur moyenne de la file et temps d'attente moyen calculés sur une simulation de 1 000 secondes",
+    "PacketQueue.cc modifié en C++ pour horodater chaque paquet à son arrivée et enregistrer son temps d'attente comme signal et comme tag de paquet",
+    "Métriques simulées validées par rapport aux résultats théoriques M/M/1"
+   ],
+   "tags": [
+    "OMNeT++",
+    "INET",
+    "C++",
+    "Files d'attente",
+    "SQLite"
+   ],
+   "slides": [
+    "media/slides/omnetpp-mm1-queue/01.jpg",
+    "media/slides/omnetpp-mm1-queue/02.jpg",
+    "media/slides/omnetpp-mm1-queue/03.jpg",
+    "media/slides/omnetpp-mm1-queue/04.jpg",
+    "media/slides/omnetpp-mm1-queue/05.jpg"
+   ]
+  },
+  {
+   "cat": "sw",
+   "video": "media/voltvault-demo.mp4",
+   "pdf": null,
+   "images": [],
+   "start": 0,
+   "end": null,
+   "thumb": "media/thumbs/voltvault.jpg",
+   "thumb_text": "",
+   "when": "",
+   "kicker": "Qt/C++ · Arduino",
+   "title": "VoltVault : gestion de bornes de recharge VE",
+   "subtitle": "Logiciel et matériel au service de la recharge VE",
+   "desc": "Une application de bureau Qt/C++ avec des prototypes Arduino qui simule le fonctionnement d'une borne de recharge intelligente, de l'analyse concurrentielle jusqu'aux tests.",
+   "flow": "",
+   "bullets": [
+    "Module employés : CRUD, recherche, tri, export PDF/Excel, statistiques, authentification, chat interne",
+    "Accès RFID sur Arduino UNO : un écran LCD demande la carte, puis une LED verte autorise l'accès si l'identifiant existe et une LED rouge le refuse",
+    "Également visibles dans la démo : historique des actions, QR codes, ajout de photo, export Excel, affichage de carte, envoi de mails et calculatrice intégrée"
+   ],
+   "tags": [
+    "Qt",
+    "C++",
+    "MySQL",
+    "Arduino",
+    "RFID"
+   ],
+   "slides": []
+  }
+ ],
+ "education_title": "Double diplôme, quatre langues",
+ "degrees": [
+  {
+   "title": "Master 2 Systèmes Intelligents et Applications",
+   "where": "Université Gustave Eiffel, France · 2025 – 2026",
+   "dd": true
+  },
+  {
+   "title": "Diplôme d'ingénieur en Data Science",
+   "where": "ESPRIT, Tunis · 2021 – 2026",
+   "dd": true
+  },
+  {
+   "title": "Licence en Informatique (en ligne)",
+   "where": "Beijing Polytechnique, Chine · 2022 – 2025",
+   "dd": false
+  }
+ ],
+ "languages": [
+  {
+   "name": "Arabe",
+   "level": "Langue maternelle"
+  },
+  {
+   "name": "Anglais",
+   "level": "C2"
+  },
+  {
+   "name": "Français",
+   "level": "C1"
+  },
+  {
+   "name": "Chinois (mandarin)",
+   "level": "B1 · HSK4"
+  }
+ ],
+ "edu_headings": [
+  "Formation",
+  "Langues"
+ ],
+ "skills_title": "Compétences techniques",
+ "skills": [
+  {
+   "group": "Langages",
+   "tags": [
+    "Python",
+    "SQL",
+    "R",
+    "JavaScript",
+    "Java",
+    "C/C++",
+    "PHP",
+    "HTML/CSS",
+    "VBA"
+   ]
+  },
+  {
+   "group": "Data Engineering & ETL/ELT",
+   "tags": [
+    "Apache Airflow",
+    "dbt",
+    "Databricks",
+    "PySpark",
+    "Delta Lake",
+    "Hadoop",
+    "Orchestration de pipelines",
+    "API REST",
+    "Web scraping",
+    "n8n",
+    "Zapier",
+    "Microsoft 365 (SharePoint, Power Automate, Dataflows)"
+   ]
+  },
+  {
+   "group": "Bases de données & data warehousing",
+   "tags": [
+    "SQL / NoSQL",
+    "PostgreSQL",
+    "ClickHouse",
+    "MySQL",
+    "SQLite",
+    "MongoDB"
+   ]
+  },
+  {
+   "group": "Modélisation, gouvernance & qualité",
+   "tags": [
+    "Data modeling",
+    "Modélisation dimensionnelle",
+    "Data governance",
+    "Data quality",
+    "Audit de données",
+    "Sécurité des accès (RLS)",
+    "Architecture décisionnelle",
+    "RGPD",
+    "Structuration et fiabilisation de bases"
+   ]
+  },
+  {
+   "group": "BI & Dataviz",
+   "tags": [
+    "Apache Superset",
+    "Power BI",
+    "DAX",
+    "Power Query",
+    "Langage M",
+    "Excel (reporting interactif)",
+    "Tableau"
+   ]
+  },
+  {
+   "group": "IA & Machine Learning",
+   "tags": [
+    "PyTorch",
+    "TensorFlow",
+    "Scikit-learn",
+    "Machine learning",
+    "Deep learning",
+    "Reinforcement learning (Gymnasium, OpenAI Gym, Stable-Baselines3)",
+    "Transformers (LLaMA, Gemini)",
+    "LLMs",
+    "YOLO",
+    "Systèmes multi-agents (Mesa)",
+    "Statistiques",
+    "Analyse de données",
+    "Dataiku"
+   ]
+  },
+  {
+   "group": "DevOps & industrialisation",
+   "tags": [
+    "Docker",
+    "Kubernetes",
+    "CI/CD",
+    "MLOps",
+    "MLflow",
+    "Azure",
+    "AWS",
+    "Google Cloud Platform (GCP)",
+    "FastAPI",
+    "API RESTful",
+    "Swagger",
+    "Bruno"
+   ]
+  },
+  {
+   "group": "Gestion de projet & collaboration",
+   "tags": [
+    "Agile (Scrum)",
+    "JIRA",
+    "Git",
+    "GitHub",
+    "Conduite du changement",
+    "Communication",
+    "Esprit d'équipe"
+   ]
+  },
+  {
+   "group": "Réseaux",
+   "tags": [
+    "Cisco IOS",
+    "Packet Tracer",
+    "VLAN / 802.1Q",
+    "Routage inter-VLAN",
+    "STP / PVST+",
+    "EtherChannel (LACP, PAgP)",
+    "HSRP"
+   ]
+  },
+  {
+   "group": "Autres outils",
+   "tags": [
+    "QGIS",
+    "NetworkX",
+    "OSMnx"
+   ]
+  }
+ ],
+ "certs_title": "Certifications",
+ "certs": [
+  {
+   "img": "media/certs/nvidia-fundamentals-deep-learning.jpg",
+   "verify": "https://learn.nvidia.com/certificates?id=WqUCFHJBTa6IE6VN1LSjgA",
+   "issuer": "NVIDIA Deep Learning Institute · mars 2025",
+   "title": "Fundamentals of Deep Learning",
+   "desc": "Certificate of Competency en deep learning accéléré sur GPU",
+   "skills": [
+    "Entraîner des réseaux de neurones sur GPU, dont des réseaux convolutifs pour la vision",
+    "Améliorer les modèles avec l'augmentation de données et le transfer learning"
+   ]
+  },
+  {
+   "img": "media/certs/nvidia-anomaly-detection.jpg",
+   "verify": "https://learn.nvidia.com/certificates?id=Jc6VcbE-T_64d_KwFeMLdg",
+   "issuer": "NVIDIA Deep Learning Institute · mai 2025",
+   "title": "Applications of AI for Anomaly Detection",
+   "desc": "Certificate of Competency en détection d'anomalies par l'IA",
+   "skills": [
+    "Détecter des anomalies dans des données réseau avec XGBoost, des autoencodeurs et des GAN",
+    "Comparer les approches supervisées et non supervisées de détection d'anomalies"
+   ]
+  },
+  {
+   "img": "media/certs/ccna-srwe.jpg",
+   "verify": null,
+   "issuer": "Cisco Networking Academy · sept. 2024",
+   "title": "CCNAv7: Switching, Routing and Wireless Essentials",
+   "desc": "Deuxième cours du parcours Cisco CCNA",
+   "skills": [
+    "Configurer des VLAN, des trunks 802.1Q et le routage inter-VLAN",
+    "Éviter les boucles de niveau 2 avec STP et agréger des liens avec EtherChannel",
+    "Mettre en place DHCPv4, SLAAC/DHCPv6 et la redondance du premier saut (HSRP)",
+    "Sécuriser le LAN (port security, attaques de niveau 2) et configurer des réseaux sans fil",
+    "Configurer et dépanner des routes statiques"
+   ]
+  },
+  {
+   "img": "media/certs/ethical-hacker.jpg",
+   "verify": null,
+   "issuer": "Cisco Networking Academy · août 2024",
+   "title": "Ethical Hacker",
+   "desc": "Tests d'intrusion, de la préparation au rapport",
+   "skills": [
+    "Expliquer l'importance d'une démarche méthodique de hacking éthique et de test d'intrusion",
+    "Rédiger les documents préliminaires d'un test d'intrusion",
+    "Collecter des informations et scanner les vulnérabilités",
+    "Expliquer comment réussissent les attaques d'ingénierie sociale",
+    "Expliquer l'exploitation des vulnérabilités réseau filaire et sans fil, applicatives, cloud, mobiles et IoT",
+    "Expliquer les activités de post-exploitation",
+    "Rédiger un rapport de test d'intrusion et classer les outils de pentest par usage"
+   ]
+  },
+  {
+   "img": "media/certs/python-essentials-1.jpg",
+   "verify": null,
+   "issuer": "Cisco Networking Academy & OpenEDG Python Institute · août 2024",
+   "title": "Python Essentials 1",
+   "desc": "Bases de la programmation en Python 3",
+   "skills": [
+    "Concevoir, développer, déboguer, exécuter et refactoriser des programmes simples en Python 3",
+    "Raisonner de façon algorithmique pour analyser un problème et l'implémenter",
+    "Utiliser la syntaxe, la sémantique et les principaux éléments de la bibliothèque standard Python",
+    "Comprendre le rôle du développeur dans le cycle de développement logiciel",
+    "Préparée à la certification PCEP – Certified Entry-Level Python Programmer"
+   ]
+  },
+  {
+   "img": "media/certs/intro-data-science.jpg",
+   "verify": null,
+   "issuer": "Cisco Networking Academy · août 2024",
+   "title": "Introduction to Data Science",
+   "desc": "Analyse de données, IA et machine learning",
+   "skills": [
+    "Expliquer les promesses et les défis de l'analyse de données",
+    "Expliquer le rôle des données dans l'IA et le machine learning",
+    "Explorer les parcours professionnels en analyse de données"
+   ]
+  },
+  {
+   "img": "media/certs/intro-cybersecurity.jpg",
+   "verify": null,
+   "issuer": "Cisco Networking Academy · août 2024",
+   "title": "Introduction to Cybersecurity",
+   "desc": "Menaces, attaques et moyens de s'en protéger",
+   "skills": [
+    "Expliquer les bases de la sécurité en ligne et ce qu'est la cybersécurité",
+    "Expliquer les cybermenaces, attaques et vulnérabilités les plus courantes",
+    "Expliquer comment se protéger en ligne",
+    "Expliquer comment les organisations protègent leurs activités contre ces attaques"
+   ]
+  },
+  {
+   "img": null,
+   "verify": null,
+   "issuer": "Hackathon européen · 2026",
+   "title": "Certificat de hackathon",
+   "desc": "Des solutions pour les communes rurales, avec une équipe internationale",
+   "skills": [
+    "Travailler dans une équipe interdisciplinaire et internationale",
+    "Transformer un problème réel des communes rurales en solution concrète, dans un temps limité"
+   ]
+  },
+  {
+   "img": "media/certs/accounting-training.jpg",
+   "verify": null,
+   "issuer": "Shanxi Finance & Taxation College · déc. 2023",
+   "title": "Global Recognition Accounting Training",
+   "desc": "Programme d'échange international en comptabilité",
+   "skills": [
+    "Suivi d'un programme international de formation et d'échange professionnel en comptabilité",
+    "Formation suivie auprès d'un établissement chinois, dans un cadre international"
+   ]
+  },
+  {
+   "img": "media/certs/belt-and-road.jpg",
+   "verify": null,
+   "issuer": "Shanxi Finance & Taxation College · déc. 2023",
+   "title": "Belt and Road Chinese Abacus Cultural Exchange",
+   "desc": "Calcul au boulier chinois et culture",
+   "skills": [
+    "Apprentissage du calcul au boulier chinois (zhusuan)",
+    "Participation à un programme d'échange culturel en chinois"
+   ]
+  },
+  {
+   "img": "media/certs/xinyang-excellent-student.jpg",
+   "verify": null,
+   "issuer": "Université de Xinyang · déc. 2022",
+   "title": "Excellent Student Award",
+   "desc": "Activité en ligne « Chinese Bridge »",
+   "skills": [
+    "Récompensée pour une performance remarquable lors de l'activité en ligne « Chinese Bridge » : musique, kung-fu, thé, opéra, style Yu et culture Chu",
+    "Pratique du mandarin à travers la culture chinoise"
+   ]
+  }
+ ],
+ "contact": {
+  "title": "Parlons de votre équipe data",
+  "text": "Disponible dès maintenant pour un CDI ou un CDD en tant que Data Engineer, Analytics Engineer, Data Analyst ou Data Scientist. Autorisée à travailler en France et mobile sur tout le territoire.",
+  "items": [
+   {
+    "label": "E-mail",
+    "value": "nadalatrach1234@gmail.com",
+    "href": null
+   },
+   {
+    "label": "Téléphone",
+    "value": "+33 6 51 77 99 80",
+    "href": null
+   },
+   {
+    "label": "LinkedIn",
+    "value": "nada-l-7b268a412",
+    "href": "https://www.linkedin.com/in/nada-l-7b268a412"
+   },
+   {
+    "label": "GitHub",
+    "value": "nadapianist",
+    "href": "https://github.com/nadapianist"
+   }
+  ]
+ }
+}
